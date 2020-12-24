@@ -19,7 +19,13 @@ dependencies:
 
   cupertino_icons: ^1.0.0
   cloud_firestore:
+  firebase:
+  firebase_core:
+
+  firebase_auth:
   lottie:
+  chewie:
+  video_player:
 
 
 dev_dependencies:
@@ -35,6 +41,7 @@ flutter:
 
   assets:
     - assets/
+    - animations/
 
 
 
