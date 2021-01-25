@@ -33,7 +33,7 @@ class _DetailPageState extends State<DetailPage> {
                   child: Column(
                     children: [
                       Padding(
-                        padding: EdgeInsets.only(top: 6.401303538 * SizeConfig.heightMultiplier),
+                        padding: EdgeInsets.only(top: 3.401303538 * SizeConfig.heightMultiplier),
                         child: SizedBox(
                           height: 32.0065176 * SizeConfig.heightMultiplier,
                           width: 38.19444451 * SizeConfig.widthMultiplier,
@@ -76,7 +76,7 @@ class _DetailPageState extends State<DetailPage> {
                         ],
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(4.0),
                         child: Container(
                           height: 35,
                           width: MediaQuery.of(context).size.width,
@@ -105,7 +105,7 @@ class _DetailPageState extends State<DetailPage> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(4.0),
                         child: Container(
                           height: 4.48091247 * SizeConfig.heightMultiplier,
                           width: MediaQuery.of(context).size.width,
